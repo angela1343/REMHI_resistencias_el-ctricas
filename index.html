@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistencias Eléctricas - Productos</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .welcome-section {
+            background-image: url('webosc.jpg'); /* Cambia 'webosc.jpg' por tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 100px 0;
+            color: rgb(255, 255, 255);
+        }
+
+        .welcome-section h1 {
+            margin-top: 0;
+            color: rgb(255, 255, 255);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30pxs;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .logo {
+            max-width: 250px;
+        }
+
+        #productos {
+            font-weight: 400;
+            text-align: center;
+            padding: 50px 0;
+            background-color: #929292; /* Color de fondo para la sección de productos */
+            font-size: 20px;
+        }
+
+        #productos h2 {
+            font-weight: 800;
+            margin-bottom: 80px;
+            font-size: justify ;
+        }
+
+        .product-image {
+            width: 100%; /* Ajustamos el ancho al 100% para que ocupe todo el espacio disponible */
+            height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+            border-radius: 10px; /* Añadimos bordes redondeados */
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        #productos ol {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 800px;
+            list-style: none;
+            font-size:justify;
+        }
+
+        #productos ol li {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(251, 251, 251, 0.1);
+            font-size: justify;
+            max-width: 400px ;
+        }
+
+        #contacto {
+            padding: 50px 0;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #ubicacion {
+            padding: 50px 0;
+            text-align: center;
+            font-size: 20px ;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcome-section">
+        <h1>Bienvenido a nuestra tienda de resistencias eléctricas</h1>
+    </div>
+
+    <header>
+        <img src="logoremhi.jpg.jpg" alt="Logo de REMHI Resistencias eléctricas" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <ol>
+                <li>
+                    <img src="bandceramic.jpg" alt="Banda Cerámica" class="product-image" width="300"> <!-- Ajustamos el ancho a 300px -->
+                    <h3>Banda Cerámica</h3>
+                    <p> Son fundamentales en sectores industriales y comerciales debido a su durabilidad, confiabilidad y capacidad para resistir condiciones severas de operación, haciendo posible el control eficiente de la temperatura y la energía en numerosos procesos y aplicaciones.</p>
+                </li>
+                <li>
+                    <img src="bandcart.jpg" alt="Banda Tipo Cartucho" class="product-image" width="300">
+                    <h3>Banda Tipo Cartucho</h3>
+                    <p>Son esenciales en sectores industriales debido a su capacidad para proporcionar calor de manera precisa y eficiente, contribuyendo significativamente a procesos de producción que dependen de un control térmico preciso y confiable.</p>
+                </li>
+                <li>
+                    <img src="bandmica.jpg" alt="Banda Mica" class="product-image" width="300">
+                    <h3>Banda Mica</h3>
+                    <p>Son esenciales en aplicaciones donde se requiere un calentamiento eficiente y seguro, combinando alta resistencia térmica con un excelente aislamiento eléctrico, lo cual las convierte en una opción preferida para numerosos procesos industriales que dependen de un control térmico preciso y confiable</p>
+                        </ul>
+                    </div>
+                </li>
+                <!-- Puedes agregar más productos aquí -->
+            </ol>
+        </section>
+        <section id="contacto">
+            <!-- Aquí puedes agregar tu información de contacto -->
+            <h2>Contacto</h2>
+            <p>¡Contáctanos para más información!</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100093035882465" target="_blank">Facebook</a>
+                <a href="http://"></a>
+                <a href="https://api.whatsapp.com/send?phone=%2B525573314503&context=ARB3TaSyh3m4Sx9sXK5wL16jj5VXXcFhAiDBpG0j2q_E13nOmF_Ng4K40Px72CjGytvS_u3GEX6gqdjJ9XC_L_Xaqi2vklId8bMoMnhMElKXoC3v0qi631lSGloYTvP4LZNW-yoe0CwCGdgY-dOtq4S3rg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR0mv36iCEncctJsAmVshYYucLWZ9k2lToBms4VQix44oabZrKfKhFM2xwU_aem_ZmFrZWR1bW15MTZieXRlcw" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Encuéntranos en: <a href="https://maps.app.goo.gl/VivhHnJQrwTgns4JA">¡Visítanos!</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; REMHI Resistencias eléctricas</p>
+    </footer>
+</body>
+</html>
+
